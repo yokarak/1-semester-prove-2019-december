@@ -26,6 +26,16 @@ Følgende skal afleveres i Wiseflow:
 
 ...
 
+
+1. Skriv en hello world i java
+2. op på github med det + readme der viser md formattering (minimum 5)
+3. et program, som indlæser 2 tal og viser gennemstnittet og summen
+4. programmet skal smide exceptions på fordkert indtastning  eller hvis der kun indtastes 0er 
+6. udvid, så programmer skal køre indtil man indtaster exit
+7. test gennemsnit() og (sum) metoden
+8. 
+
+
 ### Opgave 1 - Opstart
 
 Vi har forberedt noget starter-kode, som du skal arbejde med. Fork den fra **[https://github.com/andracs/1sem_exam_2018_B](https://github.com/andracs/1sem_exam_2018_B)**
@@ -142,4 +152,4 @@ Commit ændringerne.
  
 
 # God arbejdslyst! 
-/Steven, Anders, András 
+ András 
