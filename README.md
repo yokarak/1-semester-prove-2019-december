@@ -22,59 +22,54 @@ Følgende skal afleveres i Wiseflow:
 **[Link til Wiseflow...](https://europe.wiseflow.net/participant/)**
 
 
-# Overordnet tema: ...
-
-4. programmet skal smide exceptions på fordkert indtastning  eller hvis der kun indtastes 0er 
-6. udvid, så programmer skal køre indtil man indtaster exit
-7. test gennemsnit() og (sum) metoden
-8. 
+# Overordnet tema: Quiz
 
 
-### Opgave 1 - Opstart
+### Opgave 1 - Opvarmning
 
 Skriv en "Hello world!" applikation i Java, klassenavnet skal være Main.
 
 Commit koden til Github.
 
-### Opgave 2 - Quickmaths
+### Opgave 2 - Opvarmning 2 - Quickmaths
 
 Du skal udvikle en ny klasse, som indlæser 2 tal fra brugeren via Scanner og viser gennemstnittet og summen. Klassenavn: Quickmaths.
 
 Denne klasse skal have 2 metoder, gennemsnit(int a, int b) og sum (int a, int b), som begge returnerer integers.
 
-Skriv unit tests 
+Skriv unit tests til disse 2 metoder. 
 
 Commit ændringerne.
 
 ### Opgave 3 - Exceptions
 Nu skal du udvide Quickmaths klassen, så den kan smide exceptions på forkert indtastning eller hvis der kun indtastes 0 er. 
 
-### Opgave 4 - Nedarvning
-Opret 3 nye klasser, som skal repræsentere hhv. billede, video og artikel medietyperne. De skal alle nedarve fra **Media** klassen og udvide den med følgende klassevariabler:
+### Opgave 4 - OOD
+Vi skal design og udvikle 3 nye java-klasser.
 
-- __Video__:
-  - filtype (mp4, m4v, mov)
-  - længde (minutter og sekunder)
-  - opløsing (SD, HD)
-  - fotograf (navn)
- 
-- __Billede__:
-  - filtype (jpg, png, gif)
-  - bredde i pixels
-  - højde i pixels
-  - fotograf (navn)
- 
-- __Artikel__
-  - forfatter (navn)
-  - artikeltekst
-  - tilhørende billede 
-  
- Opdater klassediagrammet så det afspejler tilføjelsen af de nye klasser.
- 
- Commit ændringerne.
+Quizspørgsmål skal repræsenteres af en klasse. 
+Hvert spørgsmål er maksimum 100 tegn langt. 
+De kan have en pointværdi fra 0 til 1000.
+Spørgsmålene skal have nogle svarmuligheder tilknyttet. 
+Objektet skal også indeholde information om, hvilket svar er det rigtige.
+
+Svarene skal også repræsenteres af en klasse.
+Hvert svar er maksimum 30 tegn langt. 
+
+Den tredje klasse, som vi skal udvikle er selv quiz-klassen, som skal indeholde 3 spørgsmåls-objekter med tilhørende svar.
+
+Det skal være muligt at bruge de ...
+
+Tegn en klassediagram for ovenstående, og derefter kan du implementere koden. Til sidst må du genrere et diagram i IntelliJ for at se, om din implementering passer.
+
+Commit ændringerne.
   
 
-### Opgave 5 - Metoder
+### Opgave 5 - Nedarvning
+Nu skal du lave en ny klasse, der extender quizspørgsmål således, at der kan knyttes et billede til spørgsmålerne.  
+
+
+
 Opret en metode ved navnet **logToConsol()** i klassen **Media**, som skal printe klassens **name** instansvariable  og klassens medietype (i dette tilfælde Media) til consollen.
 
 Override nu denne metode i Video, Billede og Artikel subclasses, så de skriver de respektive medietyper til konsolen i stedet for "Media".
@@ -83,7 +78,8 @@ Opdater klassediagrammet så det afspejler ændringerne i koden.
 
 Commit ændringerne.
 
-### Opgave 6 - Array, loop og if (eller case) 
+### Opgave 6 - TDD opgave
+
 TV2 gemmer alle deres mediafiler i en mappe, som vi i vores udviklingsmiljø emulerer med **[media](https://github.com/andracs/1sem_exam_2018_B/tree/master/media)** mappen i projektet.
 
 Opret en metode med navnet **logMediaFolder(String folderNavn)**, som kan vise alle filer fra "mediemappen" på stdout (consol).
