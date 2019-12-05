@@ -19,17 +19,11 @@ Følgende skal afleveres i Wiseflow:
 2. Din besvarelse i et Word eller Google dokument, som via skærmbilleder og forklarende tekst viser, hvordan programmet fungerer og hvordan det er udviklet. 
 3. Et link til dit projekt på GitHub, hvor du har comittet og pushet alle dine ændringer og tilføjelser!
 
-**[Link til Wiseflow...](https://europe.wiseflow.net/manager/display.php?id=1093138)**
+**[Link til Wiseflow...](https://europe.wiseflow.net/participant/)**
 
 
 # Overordnet tema: ...
 
-...
-
-
-1. Skriv en hello world i java
-2. op på github med det + readme der viser md formattering (minimum 5)
-3. et program, som indlæser 2 tal og viser gennemstnittet og summen
 4. programmet skal smide exceptions på fordkert indtastning  eller hvis der kun indtastes 0er 
 6. udvid, så programmer skal køre indtil man indtaster exit
 7. test gennemsnit() og (sum) metoden
@@ -38,29 +32,22 @@ Følgende skal afleveres i Wiseflow:
 
 ### Opgave 1 - Opstart
 
-Vi har forberedt noget starter-kode, som du skal arbejde med. Fork den fra **[https://github.com/andracs/1sem_exam_2018_B](https://github.com/andracs/1sem_exam_2018_B)**
+Skriv en "Hello world!" applikation i Java, klassenavnet skal være Main.
 
-### Opgave 2 - Velkommen
-Programmet starter i Main klassen. Se, om du kan køre main metoden i denne klasse. 
+Commit koden til Github.
 
-Forstå, hvordan det virker, og modificer koden således, at den skriver "TV2 Media Manager" i stedet for "Hello World". 
+### Opgave 2 - Quickmaths
 
-Du kan også konkatenere konstanten SOFTWARE_VERSION fra Main klassen til denne velkomsthilsen.
+Du skal udvikle en ny klasse, som indlæser 2 tal fra brugeren via Scanner og viser gennemstnittet og summen. Klassenavn: Quickmaths.
 
-Commit ændringerne.
+Denne klasse skal have 2 metoder, gennemsnit(int a, int b) og sum (int a, int b), som begge returnerer integers.
 
-### Opgave 3 - Klasser og kodeforståelse
-Åben **media** mappen, og se, hvilke filer der er heri. 
-
-Åbn **Main** klassen og forstå dens opbygning. Skriv  kommentarer i klassen.
-
-Åbn **Media** klassen og forstå dens opbygning.  Skriv  kommentarer i klassen.
-
-Åbn **MediaID** klassen, og forstå, hvordan den virker. Din opgave er at skrive kommentarer til alle linjer i denne klasse, og forklare, hvordan den virker. Brug fagsprog.
-
-Konstruer et klassediagram der dokumenterer klassernes indhold og indbyrdes relationer. Du bestemmer selv om du vil bruge Visio, draw.io eller et billede af et håndtegnet diagram. Placer klassediagrammet i dit repository så det løbende bliver inkluderet i hvert commit.
+Skriv unit tests 
 
 Commit ændringerne.
+
+### Opgave 3 - Exceptions
+Nu skal du udvide Quickmaths klassen, så den kan smide exceptions på forkert indtastning eller hvis der kun indtastes 0 er. 
 
 ### Opgave 4 - Nedarvning
 Opret 3 nye klasser, som skal repræsentere hhv. billede, video og artikel medietyperne. De skal alle nedarve fra **Media** klassen og udvide den med følgende klassevariabler:
