@@ -8,7 +8,9 @@ Denne prøve er en milepæl, så du kan se, hvor langt du er nået. Gør dit bed
 
 Det er ikke en tragedie, hvis ikke du kan løse alle opgaverne, for du har endnu 2 år til at øve dig på bl.a. programmering.
 
-Men tage dine mangler alvorligt, og lær det, du mangler. Søg evt. hjælp for hos dine undervisere, vi er her for at hjælpe dig at lære. 
+Men tage dine mangler alvorligt, og brug de kommende måneder på at lære det, du mangler. 
+
+Søg evt. hjælp for hos dine undervisere, vi er her for at hjælpe dig at lære. 
 
 # Aflevering 
 Følgende skal afleveres i Wiseflow:
@@ -28,6 +30,12 @@ Følgende skal afleveres i Wiseflow:
 ### Opgave 1 - Opvarmning
 
 Skriv en "Hello world!" applikation i Java, klassenavnet skal være Main.
+
+Når det virker, så skal du lave en hello(String navn) metode, som returnerer teksten "Hello András!", når man kalder den som 
+
+```hello("András");```
+
+Nu skal du via test vise, at metodenfungerer efter hensigten. Test med MainTest.java. 
 
 Commit koden til Github.
 
