@@ -8,40 +8,31 @@ Denne prøve er en milepæl, så du kan se, hvor langt du er nået. Gør dit bed
 
 Det er ikke en tragedie, hvis ikke du kan løse alle opgaverne, for du har endnu 2 år til at øve dig på bl.a. programmering.
 
-Men tage dine mangler alvorligt, og brug de kommende måneder på at lære det, du mangler. 
+Men tage gerne dine mangler alvorligt, og brug de kommende måneder på at lære det, du mangler. 
 
 Søg evt. hjælp for hos dine undervisere, vi er her for at hjælpe dig at lære. 
 
-# Aflevering 
-Følgende skal afleveres i Wiseflow:
-
-#### OBS! Du skal ___committe___ dine ændringer efter hver opgave eller hver time, så vi kan  se udvikling i din kode. Til sidst kan du pushe hele repoet op til GitHub. Hvis du går i stå med en opgave, så fortsat med det næste, og vend tilbage senere. Lex Simon: Du skal kun pushe til allersidst!
-
-1. Din IntelliJ projektmappe pakket som **zip-fil**, inklusiv kommentarer. 
-2. Din besvarelse i et Word eller Google dokument, som via skærmbilleder og forklarende tekst viser, hvordan programmet fungerer og hvordan det er udviklet. 
-3. Et link til dit projekt på GitHub, hvor du har comittet og pushet alle dine ændringer og tilføjelser!
-
-**[Link til Wiseflow...](https://europe.wiseflow.net/participant/)**
-
-
 # Overordnet tema: Quiz
 
+#### OBS! Du skal ___committe___ dine ændringer efter hver opgave eller hver time, så vi kan  se udvikling i din kode. Til sidst - og kun til allersidst - kan du pushe hele repoet op til GitHub.
 
-### Opgave 1 - Opvarmning
+Hvis du går i stå med en opgave, så fortsat med det næste, og vend tilbage senere. Lex Simon: Du skal kun pushe til allersidst.
 
-Skriv en "Hello world!" applikation i Java, klassenavnet skal være Main.
+### Opgave 1 - Opvarmning Main.java
+
+Skriv en "Hello world!" applikation i Java, klassenavnet skal være **Main**.
 
 Når det virker, så skal du lave en hello(String navn) metode, som returnerer teksten "Hello András!", når man kalder den som 
 
 ```hello("András");```
 
-Nu skal du via test vise, at metodenfungerer efter hensigten. Test med MainTest.java. 
+Nu skal du køre min test for at vise, at metoden fungerer efter hensigten. Test med **MainTest**.java. 
 
 Commit koden til Github.
 
 ### Opgave 2 - Opvarmning 2 - Quickmaths
 
-Du skal udvikle en ny klasse, som indlæser 2 tal fra brugeren via Scanner og viser gennemstnittet og summen. Klassenavn: Quickmaths.
+Du skal udvikle en ny klasse, som indlæser to tal fra brugeren via Scanner og viser gennemstnittet og summen. Klassenavn: **Quickmaths**.
 
 Denne klasse skal have 2 metoder, gennemsnit(int a, int b) og sum (int a, int b), som begge returnerer integers.
 
@@ -140,7 +131,17 @@ Du skal udvide din applikation, så medie-data kan oprettes, rettes og slettes i
 Hvis du stadig har tid, kan du prøve at implementere medievisning i GUI for stationens billede- og videofiler. 
 
 Commit ændringerne.
- 
+
+# Aflevering 
+
+Følgende skal afleveres i Wiseflow:
+
+1. Din IntelliJ projektmappe pakket som **zip-fil**, inklusiv kommentarer. 
+2. Din besvarelse i et Word eller Google dokument, som via skærmbilleder og forklarende tekst viser, hvordan programmet fungerer og hvordan det er udviklet. 
+3. Et link til dit projekt på GitHub, hvor du har comittet og pushet alle dine ændringer og tilføjelser!
+
+**[Link til Wiseflow...](https://europe.wiseflow.net/participant/)**
+
 
 # God arbejdslyst! 
  András 
