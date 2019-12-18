@@ -7,6 +7,14 @@
 
 public class Main {
 
-    // Your code here 
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
 
+    public String hello(String navn) {
+        if (navn.length() == 0) {
+            return "Hello World!";
+        }
+        return "Hello " + navn + "!";
+    }
 }
