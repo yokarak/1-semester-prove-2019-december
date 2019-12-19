@@ -54,7 +54,7 @@ public class Loops {
     }
 
     public static void main(String[] args) {
-        Loops l = new Loops(); 
+        Loops l = new Loops();
         l.printBrugereArr();
         System.out.println("*******");
         l.printBrugereReverseArr();
