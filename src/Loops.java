@@ -42,6 +42,6 @@ public class Loops {
     public void waitingFor0() {
 
         // TODO Din kode her
-
+ 
     }
 }
