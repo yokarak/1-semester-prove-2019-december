@@ -8,19 +8,19 @@ package quiz;
 
 import java.security.InvalidParameterException;
 
-public class Sporgsmaal {
+public class Sporgsmaal implements Translatable {
 
-    private String sporgsmaal;
+    private String sporgsmaalsTekst;
     private int point;
     private Svar svar[];
     private int rigtigeSvarIndex;
 
-    public String getSporgsmaal() {
-        return sporgsmaal;
+    public String getSporgsmaalsTekst() {
+        return sporgsmaalsTekst;
     }
 
-    public void setSporgsmaal(String sporgsmaal) {
-        this.sporgsmaal = sporgsmaal;
+    public void setSporgsmaalsTekst(String sporgsmaalsTekst) {
+        this.sporgsmaalsTekst = sporgsmaalsTekst;
     }
 
     public int getPoint() {
@@ -46,5 +46,10 @@ public class Sporgsmaal {
 
     public void setRigtigeSvarIndex(int rigtigeSvarIndex) {
         this.rigtigeSvarIndex = rigtigeSvarIndex;
+    }
+
+    @Override
+    public String translate(Language language) {
+        return null;
     }
 }

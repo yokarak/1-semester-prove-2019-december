@@ -1,8 +1,3 @@
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatterBuilder;
-import java.util.Date;
-
 /**
  * Developed by András Ács (acsandras@gmail.com)
  * Zealand / www.zealand.dk
@@ -12,6 +7,7 @@ import java.util.Date;
 
 public class Person {
 
+    // TODO Ret nedenstående datatyper
     int navn; // Test Testesen
     int alder; // 18
     int by; // Næstved
@@ -29,8 +25,7 @@ public class Person {
 
 
     public static void main(String[] args) {
-        Date date = new Date("01/08/1978");
-        System.out.println(date.toString());
+        //
     }
 
 }
