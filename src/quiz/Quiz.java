@@ -11,7 +11,7 @@ public class Quiz extends Sporgsmaal {
     Sporgsmaal[] sporgsmaal = new Sporgsmaal[3];
 
     public Quiz() {
-        sporgsmaal[1].setSporgsmaal("Hvad fejrer vi ved jul?");
+        sporgsmaal[1].setSporgsmaalsTekst("Hvad fejrer vi ved jul?");
         Svar[] svar = {new Svar("Jesu fødsel."), new Svar("Buddha fødsel"), new Svar("Anders and")};
     }
 
