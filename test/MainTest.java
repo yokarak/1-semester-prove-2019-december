@@ -2,6 +2,7 @@ import junit.framework.TestCase;
 
 public class MainTest extends TestCase {
 
+
     public void testHelloAndras() {
 
         Main m = new Main();

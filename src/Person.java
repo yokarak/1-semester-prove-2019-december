@@ -23,6 +23,7 @@ public class Person {
     String eksamensKarakterer; // 7, 12, -3, 4, 2, 10
     String opdateretDato; // Sun Jan 08 00:00:00 CET 1978
 
+    // TODO Vis eksempler på typecasting
     @Override
     public String toString() {
         return "Navn: " + navn + "By" + by;

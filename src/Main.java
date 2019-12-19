@@ -7,14 +7,10 @@
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+    // TODO Din kode her
 
     public String hello(String navn) {
-        if (navn.length() == 0) {
-            return "Hello World!";
-        }
-        return "Hello " + navn + "!";
+        return "";
     }
+
 }
