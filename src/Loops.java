@@ -15,7 +15,7 @@ public class Loops {
 
     public String[] getBrugere() {
         return brugere;
-    }
+    } 
 
     /**
      * Viser en liste med brugere i konsollen
