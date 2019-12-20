@@ -1,10 +1,13 @@
 package Quiz;
 
+import java.util.Scanner;
+
 public class Svar {
     String svarTekst;
 
 
-    void Svar(String svar) {
+    Svar(String svarTekst ) {
+
 
     }
 
@@ -16,4 +19,6 @@ public class Svar {
     public void setSvarTekst(String svarTekst) {
         this.svarTekst = svarTekst;
     }
+
+
 }
