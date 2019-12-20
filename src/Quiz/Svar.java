@@ -6,7 +6,7 @@ public class Svar {
     String svarTekst;
 
 
-    Svar(String svarTekst ) {
+    Svar(String svartekst ) {
 
 
     }
@@ -19,6 +19,7 @@ public class Svar {
     public void setSvarTekst(String svarTekst) {
         this.svarTekst = svarTekst;
     }
+
 
 
 }

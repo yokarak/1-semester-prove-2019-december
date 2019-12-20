@@ -8,7 +8,8 @@ public class Quiz extends Spørgsmål{
 
         SM.setSpoergmael("Hvordan beregnes P/E");
 
-        SM.setList("add", "add","ddw","eewe");
+        SM.setSvar("add", "add","ddw","eewe");  // prøvede  med array og arralist. på mange forskellige måder
+
 
 
 

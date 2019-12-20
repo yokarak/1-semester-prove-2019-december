@@ -3,10 +3,11 @@ package Quiz;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class Spørgsmål {
+public class Spørgsmål implements Translatable{
         private int point;
         private int rigtigeSvarIndex; // det nummer det rigtige spørgsmål er i array oven over
         private String spoergmael;
+        private Svar[] svar;
 
 
 
@@ -27,7 +28,13 @@ public class Spørgsmål {
         this.spoergmael = spoergmael;
     }
 
+    public void setSvar(Svar[] svar) {
+        this.svar = svar;
+    }
 
 
+    @Override
+    public String translate(Language l) {
 
+    }
 }

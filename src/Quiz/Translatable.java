@@ -1,7 +1,7 @@
 package Quiz;
 
 public interface Translatable {
-   String translate();
+   String translate(Language l);
 
 
 }
