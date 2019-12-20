@@ -6,12 +6,14 @@ public class QuickmathsTest {
 
     @Test
     public void testSum() {
-        // TODO Din kode her
+      assertEquals(10,Quickmaths.sum(5,5));
+      //det at metoderne er static gør test meget hurtigere, og forhindre mig i at skulle skrive en masse
     }
 
     @Test
     public void testGennemsnit() {
-        // TODO Din kode her
+        assertEquals(7.0, Quickmaths.gennemsnit( 3,  12),0.1);
+        //eftersom det er integers, så kan man kun dele lige over
     }
 
 }
